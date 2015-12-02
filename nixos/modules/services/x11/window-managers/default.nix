@@ -11,6 +11,7 @@ in
     ./afterstep.nix
     ./bspwm.nix
     ./compiz.nix
+    ./dwm.nix
     ./fluxbox.nix
     ./herbstluftwm.nix
     ./i3.nix
