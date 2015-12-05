@@ -714,7 +714,7 @@ let
 
   bc = callPackage ../tools/misc/bc { };
 
-  bdf2psf = callPackage ../tools/misc/bdf2psf { };  
+  bdf2psf = callPackage ../tools/misc/bdf2psf { };
 
   bcache-tools = callPackage ../tools/filesystems/bcache-tools { };
 
@@ -6298,8 +6298,8 @@ let
   freealut = callPackage ../development/libraries/freealut { };
 
   freeglut = callPackage ../development/libraries/freeglut { };
-  
-  freenect = callPackage ../development/libraries/freenect { 
+
+  freenect = callPackage ../development/libraries/freenect {
       inherit (xorg) libXi libXmu;
   };
 
@@ -12317,6 +12317,10 @@ let
   sawfish = callPackage ../applications/window-managers/sawfish { };
 
   sxhkd = callPackage ../applications/window-managers/sxhkd { };
+
+  mb2md = callPackage ../applications/networking/mb2md {
+    inherit (perlPackages) TimeDate;
+  };
 
   msmtp = callPackage ../applications/networking/msmtp { };
 

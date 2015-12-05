@@ -286,6 +286,7 @@
   yarr = "Dmitry V. <savraz@gmail.com>";
   z77z = "Marco Maggesi <maggesi@math.unifi.it>";
   zef = "Zef Hemel <zef@zef.me>";
+  zenhack = "Ian Denhardt <ian@zenhack.net>";
   zimbatm = "zimbatm <zimbatm@zimbatm.com>";
   zoomulator = "Kim Simmons <zoomulator@gmail.com>";
   Gonzih = "Max Gonzih <gonzih@gmail.com>";
